@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estiloscss/formulariodontolico.css">
+    <title>formulario registro</title>
+</head>
+<body>
+    <section class="formulario">
+        <form action="mi_servidor" method="post" autocomplete="on">  
+            <h1>TU CITA</h1>
+                <label  class="label" for="nombre">Nombre:</label>
+                <input class="controls" type="text" id="nombre" name="nombre" value="" required="true" placeholder="ingresa tu nombre"> <br>
+
+                <label class="label" for="apellido">Apellido:</label>
+                <input class="controls" type="text" id="apellido" name="apellido" value="" required="true" placeholder="ingresa tu apellido">
+
+                <label class="label" for="correo">Correo: </label>
+                <input class="controls" type="email" id="correo" name="correo" value="" required="true" placeholder="ingresa tu correo"> 
+
+                <label class="label" for="edad">Edad:</label>
+                <input class="controls" type="number" id="edad" name="edad" required="true" placeholder="ingresa tu edad"><br>
+
+                <label class="label">genero:</label><br>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label class="label" for="mujer">mujer</label>
+
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label class="label" for="hombre">hombre</label><br>
+
+                <label class="label" for="fecha">fecha:</label>
+                <input type="date" id="fecha" name="fecha"><br>
+
+                <label class="label" for="citas">cita para:</label><br>
+                <select name="citas" id="citas">
+                    <option value="brackets">brackets</option>
+                    <option value="implantes dentales">implantes dentales</option>
+                    <option value="ortodoncia sin brackets">ortodoncia sin brackets</option>
+                    <option value="bucodental">bucodental</option>
+                    <option value="aparato dental">aparato dental</option>
+                    <option value="blanqueamiento">blanqueamiento</option>
+                </select><br>
+                <input class="buttons"type="submit" value="enviar">
+                <p><input type="radio" id="estoy de acuerdo" name="estoy" value="estoy"><label for="estoy de acuerdo">estoy de acuerdo con </label><a href="#">los terminos y condiciones</a></p> 
+                <p><input type="radio" id="no estoy de acuerdo" name="estoy" value="no estoy"><label for="no estoy de acuerdo">no estoy de acuerdo</label></p>
+                <p><a href="pagina_odontolica.html">volver al Inicio</a></p>
+        </form>
+    </section>
+</body>
+</html>
+
