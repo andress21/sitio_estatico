@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-image: url("imagescss/formulario2.jpg");
+    background-size: cover;
+}
+header{
+    margin: 30px auto ;
+    color: darkred;
+    padding: 10px;
+    box-sizing: border-box;
+    background: deepskyblue;
+    border: black solid;
+    border-radius: 10px;
+    width: 700px;
+    height: 170px;
+}
+section{
+    margin: 100px;
+    background: deepskyblue;
+    color: darkred;
+    padding: 10px;
+    border: black solid;
+    border-radius: 10px;
+    height: 850px;
+    width: 700px;
+    margin: auto;
+}
+.contenedor{
+    padding: 7px 3px;
+}
+a{
+    background-color: rgb(77, 49, 155);
+    color: rgb(207, 230, 223);
+    text-decoration: none;
+    padding: 5px 20px;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+nav{
+    margin: auto;
+}
